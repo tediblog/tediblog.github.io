@@ -1,0 +1,69 @@
+/*
+
+Script has been made by @load0 (discord: load0) (github: load-dev)
+- Specially made for this website (TediBlog)
+- Please do not copy this script without permission
+
+*/
+
+@import url('https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css');
+body, html {
+    height: 100%;
+}
+.gradient-background {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 100%;
+}
+.hover-animate {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.hover-animate:hover {
+    transform: scale(1.1);
+    color: #667eea;
+}
+.hidden {
+    display: none;
+}
+.block {
+    display: block;
+}
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Animation Classes */
+.animate-fadeIn {
+    animation: fadeIn 1s ease-out forwards;
+}
+.animate-fadeInUp {
+    animation: fadeInUp 1s ease-out forwards;
+}
+.animate-fadeInUpDelayed02 {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out 0.2s forwards;
+}
+.animate-fadeInUpDelayed03 {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out 0.3s forwards;
+}
+.animate-fadeInUpDelayed05 {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out 0.5s forwards;
+}
